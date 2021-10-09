@@ -1,0 +1,19 @@
+* C:\Users\Michael Marsh\OneDrive\Documents\LTspiceXVII\LPB1_Spice_Model\LBP1.asc
+Q1 N002 N004 N005 0 2N5088
+R1 N003 0 1Meg
+R2 N001 N004 1Meg
+R3 N001 N002 10k
+R4 N004 0 100k
+R5 N005 0 390
+C1 N004 N003 100n
+C2 OUT N002 100n
+V1 N001 0 9
+V2 N003 0 WAVEFILE=Zero_MetaData_Natalie_Guitar_Clean_32bitPCM.wav
+R6 OUT 0 100k
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Michael Marsh\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.lib http://www.centralsemi.com/docs/csm/2N5088.LIB
+.tran 10s
+.backanno
+.end
