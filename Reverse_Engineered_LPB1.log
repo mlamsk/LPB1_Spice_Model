@@ -3,22 +3,23 @@ Circuit: * C:\Users\Michael Marsh\OneDrive\Documents\LTspiceXVII\LPB1_Spice_Mode
 WARNING: Node NC_01 is floating.
 
 WARNING: Less than two connections to node NC_01.  This node is used by C3.
+WARNING: Less than two connections to node WAV_OUT.  This node is used by B2.
 Direct Newton iteration for .op point succeeded.
 
-Date: Sat Oct 09 14:32:46 2021
-Total elapsed time: 4.853 seconds.
+Date: Sat Oct 09 16:38:40 2021
+Total elapsed time: 4.600 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 944043
-traniter = 944032
-tranpoints = 472017
-accept = 449447
-rejected = 22570
-matrix size = 15
-fillins = 4
+totiter = 1287286
+traniter = 1287278
+tranpoints = 643236
+accept = 623410
+rejected = 19826
+matrix size = 19
+fillins = 2
 solver = Normal
-Matrix Compiler1: 1.05 KB object code size  0.2/0.2/[0.1]
-Matrix Compiler2: off  [0.2]/0.2/0.2
+Matrix Compiler1: 1.02 KB object code size  0.4/0.3/[0.1]
+Matrix Compiler2: 1.33 KB object code size  0.3/0.5/[0.2]
 
