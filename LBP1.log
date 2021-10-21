@@ -3,20 +3,20 @@ Circuit: * C:\Users\Michael Marsh\OneDrive\Documents\LTspiceXVII\LPB1_Spice_Mode
 
 Direct Newton iteration for .op point succeeded.
 
-Date: Tue Sep 28 15:15:46 2021
-Total elapsed time: 0.431 seconds.
+Date: Sat Oct 09 14:12:28 2021
+Total elapsed time: 11.745 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2092
-traniter = 2084
-tranpoints = 1042
-accept = 1042
+totiter = 3875992
+traniter = 3875984
+tranpoints = 1937993
+accept = 1937993
 rejected = 0
 matrix size = 10
 fillins = 0
 solver = Normal
-Matrix Compiler1: 560 bytes object code size  0.1/0.1/[0.1]
-Matrix Compiler2: 762 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler1: 524 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 774 bytes object code size  0.1/0.1/[0.1]
 

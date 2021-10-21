@@ -1,0 +1,25 @@
+Circuit: * C:\Users\Michael Marsh\OneDrive\Documents\LTspiceXVII\LPB1_Spice_Model\Reverse_Engineered_LPB1.asc
+
+WARNING: Node NC_01 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by C3.
+WARNING: Less than two connections to node WAV_OUT.  This node is used by B2.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Oct 16 12:00:42 2021
+Total elapsed time: 9.910 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 1824324
+traniter = 1824316
+tranpoints = 808630
+accept = 740224
+rejected = 68406
+matrix size = 19
+fillins = 2
+solver = Normal
+Matrix Compiler1: 1.02 KB object code size  0.5/0.3/[0.3]
+Matrix Compiler2: 1.33 KB object code size  0.3/0.4/[0.2]
+
